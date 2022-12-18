@@ -6,7 +6,7 @@
 // * [42, 54, 65, 87, 0]             -> min = 0, max = 87
 // * [5]                             -> min = 5, max = 5
 
-
+// my solution
 var min = function(list){
     if(list.length === 1){
       return list[0];
@@ -34,3 +34,7 @@ var max = function(list){
       return maxNum
   }
 }
+
+//best solution
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
